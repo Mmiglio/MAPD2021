@@ -11,5 +11,5 @@ docker build \
  -t spark-worker .
 
 docker build \
- -f jupyterlab.Dockerfile \
- -t jupyterlab .
+ -f spark-jupyter.Dockerfile \
+ -t spark-jupyter .

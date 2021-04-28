@@ -31,7 +31,8 @@ ENV PYTHONPATH=$SPARK_HOME/python/:$PYTHONPATH
 ENV PYTHONPATH=$SPARK_HOME/python/lib/py4j-0.10.9-src.zip:$PYTHONPATH
 
 # -- Install pyarrow
-RUN pip install pyarrow numpy pandas
+# RUN pip install pyarrow numpy pandas
+RUN conda install -y -c conda-forge pyarrow
 
 # -- Install proc tools
 RUN apt-get update && apt-get install -y procps && \
