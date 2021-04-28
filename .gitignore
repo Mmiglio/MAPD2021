@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 *.swp
 .ipynb_checkpoints
+.docker-compose.yml.swp
