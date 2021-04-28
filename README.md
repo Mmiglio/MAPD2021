@@ -35,7 +35,7 @@ your browser typing `localhost:8888`. Make sure that other jupyter are not using
 
 Test if everything is working with the notebook `notebooks/docker/Docker.ipynb`
 
-[Docker single container](notebooks/imgs/docker/single_node.png)
+![Docker single container](notebooks/imgs/docker/single_node.png)
 
 ### Docker cluster
 
@@ -43,7 +43,7 @@ We can simulate multiple nodes by using multiple docker containers: A container 
 node of the cluster, a container with the resource manager and one container for each worker. In this case you can think each container
 as a *virtual machine*. This setup is simulating what you experience on a real cluster. 
 
-[Spark cluster with docker](notebooks/imgs/docker/cluster.png)
+![Spark cluster with docker](notebooks/imgs/docker/cluster.png)
 
 This cluster can be spawned with 
 
