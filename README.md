@@ -77,3 +77,15 @@ In case you have stopped it by pressing `ctrl+C` remove the containers and netwo
 * Basic commands (parallelize, map, reduce, ...)
 * Spark application WebUI
 * Word count, computing pi and distributed gradient descent
+
+## Lecture 2
+
+* Spark dataframe
+* Basic dataframe operations
+* UDF and PandasUDF
+
+## Lecture 3
+
+* Spark Streaming
+* Streaming from TCP Socket
+* Dataframes in spark streaming
